@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+use links\server\Http;
+
+require './links.php';
+
+$http = new Http('127.0.0.1', '8888');
+$http->run();

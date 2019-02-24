@@ -1,0 +1,34 @@
+{
+  "name": "links/links",
+  "type": "project",
+  "license": "apache-2.0",
+  "description": "php socket框架 ",
+  "keywords": ["framework","linkphp","socket"],
+  "authors": [
+    {
+      "name": "liugene",
+      "email": "liujun2199@vip.qq.com"
+    }
+  ],
+  "repositories": {
+    	"packagist": {
+        	"type": "composer",
+        	"url": "https://packagist.phpcomposer.com"
+    	}
+	},
+  "require":{
+    "php": "^7.0",
+    "linkphp/framework":"dev-master",
+    "linkphp/log":"dev-master",
+    "linkphp/event":"dev-master",
+    "linkphp/config":"dev-master",
+    "linkphp/error":"dev-master",
+    "linkphp/console":"dev-master",
+    "linkphp/http":"dev-master",
+    "linkphp/di":"dev-master",
+    "linkphp/middleware":"dev-master",
+    "linkphp/loader":"dev-master",
+    "linkphp/process":"dev-master",
+    "linkphp/cookie":"dev-master"
+  }
+}
